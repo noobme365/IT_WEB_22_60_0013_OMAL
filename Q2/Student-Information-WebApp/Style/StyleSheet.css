@@ -1,0 +1,23 @@
+﻿body {
+}
+
+.head {
+    margin: 50px 0px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.add {
+    font-size: 20px;
+    margin: 50px 0px;
+    font-weight: 800;
+}
+
+.delete {
+    color: red;
+    font-weight:800;
+}
+
+
+

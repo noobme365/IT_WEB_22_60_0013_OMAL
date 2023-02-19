@@ -1,0 +1,645 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}  
+
+ /* Navbar  */
+
+ .navbar {
+    padding: 2rem 0;
+ }
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #525ffb;
+}
+
+.navbar button {
+    border: 1px solid #525ffb;
+    padding: 10px 35px;
+}
+
+.navbar button:hover {
+    background-color: #525ffb;
+    border: 1px solid #525ffb;
+}
+
+/* Hero-Section */
+
+.hero-section-text h3 {
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+}
+
+.hero-section-text p {
+    color: gray;
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.form-control::placeholder {
+    color: gray;
+    padding-left: 1rem;
+}
+
+.hero-section-text button {
+    background-color: #525ffb;
+    border: 1px solid #525ffb;
+}
+
+.hero-section-text button:hover {
+    background-color: #424dce;
+    border: 1px solid #424dce;
+}
+
+/* Featured Service that We Provide  */
+
+.services {
+    margin: 12rem 0;
+}
+
+.services h3 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 8rem;
+}
+
+.services h4 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.services p {
+    padding: 0 2rem;
+    font-weight: 700;
+}
+
+.service-card-1 {
+    background-color: #525ffb;
+    border-radius: 1rem;
+    margin: 0 1.3rem;
+}
+
+.service-card-2 {
+    background-color: #e9f0ff;
+    border-radius: 1rem;
+    margin: 6rem 1.3rem;
+}
+
+.service-card-3 {
+    background-color: #ffe7aa;
+    border-radius: 1rem;
+    margin:  3rem 1.3rem;
+}
+
+/* content section 1 */
+
+.content-section-1 h3 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 4rem;
+}
+
+.content-section-1 p {
+    margin: 2rem 0;
+    color: gray;
+    line-height: 1.8rem;
+}
+
+.content-section-1 button {
+    background-color: #525ffb;
+    border: 1px solid #424dce;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    padding: 1.2rem 4rem;
+    border-radius: 5rem;
+}
+
+.content-section-1 button:hover {
+    background-color: #424dce;
+    border: 1px solid #424dce;
+}
+
+
+/* content section 2 */
+
+.content-section-2 {
+    margin-top: 18rem;
+}
+
+.content-section-2 h3 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 4rem;
+}
+
+.content-section-2 p {
+    margin: 2rem 0;
+    color: gray;
+    line-height: 1.8rem;
+}
+
+/* content section 3 */
+
+.content-section-3 .img-1 {
+    max-width: 100%;
+    height: auto;
+} 
+
+.content-section-3 .img-2 {
+    max-width: 100%;
+    height: auto;
+} 
+.content-section-3 {
+    margin-top: 14rem;
+}
+.content-section-3 p {
+    color: #525ffb;
+    font-size: 8rem;
+    font-weight: 900;
+}
+
+.content-section-3 h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+
+.content-section-3-padding {
+ padding-bottom: 15rem;
+}
+
+/* mail-form */
+
+.mail-form {
+    margin: 5rem 0;
+    padding: 5rem;
+}
+
+.mail-form h3 {
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+
+.mail-form button {
+    background-color: #525ffb;
+    border: 1px solid #424dce;
+    font-weight: 700;
+}
+
+.mail-form button:hover {
+    background-color: #424dce;
+    border: 1px solid #424dce; 
+}
+
+
+@media (max-width: 2140px)
+{
+    /* content section 3  */
+    
+    .content-section-3 p {
+        font-size: 7rem;
+    }
+
+    .content-section-3 .img-1 {
+        max-width: 80%;
+        height: auto;
+    } 
+    
+    .content-section-3 .img-2 {
+        max-width: 100%;
+        height: auto;
+    } 
+}
+
+@media (max-width: 1771px)
+{
+    /* content section 3  */
+
+    .content-section-3 p {
+        font-size: 6rem;
+    }
+    
+}
+
+@media (max-width: 1526px)
+{
+    /* content section 3  */
+
+    .content-section-3 p {
+        font-size: 4.5rem;
+    }
+
+    .content-section-3 .img-1 {
+        max-width: 60%;
+        height: auto;
+    } 
+    
+    .content-section-3 .img-2 {
+        max-width: 80%;
+        height: auto;
+    } 
+    .content-section-3-padding {
+        padding-bottom: 8rem;
+       }
+
+    /* content section 1  */       
+    .content-section-1 h3 {
+        margin-bottom: 2.5rem;
+    }
+    
+    .content-section-1 button {
+       margin-top: 1rem;
+    }
+
+    /* content section 2  */  
+    .content-section-2 h3 {
+        margin-bottom: 2.5rem;
+    }
+}
+
+
+
+@media (max-width: 1200px)
+{
+    /* content section 3  */
+
+    .content-section-3 p {
+        font-size: 4.5rem;
+    }
+
+    .content-section-3 .img-1 {
+        max-width: 60%;
+        height: auto;
+    } 
+    
+    .content-section-3 .img-2 {
+        max-width: 80%;
+        height: auto;
+    } 
+    .content-section-3-padding {
+        padding-bottom: 8rem;
+       }
+
+       /* Featured Service that We Provide  */
+    
+    .services h4 {
+        font-size: 1.5rem;
+        margin-bottom: 1.2rem;
+    }
+    
+    .services p {
+        font-size: 0.8rem;
+    }
+    
+    .service-card-1 {
+        margin: 0 1rem;
+    }
+    
+    .service-card-2 {
+        margin: 6rem 1rem;
+    }
+    
+    .service-card-3 {
+        margin:  3rem 1rem;
+    }
+
+     /* content section 1  */       
+     .content-section-1 h3 {
+        font-size: 2.3rem;
+        margin-bottom: 1rem;
+    }
+    
+    .content-section-1 button {
+       font-size: .8rem;
+       margin-top: 0.5rem;
+       padding: .8rem 2rem;
+    }
+
+    .content-section-1 p {
+        font-size: .8rem;
+        line-height: 1.5rem;
+    }
+
+    /* content section 2  */ 
+
+    .content-section-2 h3 {
+        font-size: 2.3rem;
+        margin-bottom: 1rem;
+    }
+    
+    .content-section-2 p {
+        font-size: .8rem;
+        line-height: 1.5rem;
+    }
+
+        /* mail-form */
+
+        .mail-form .inputfield {
+            height: 3.5rem
+    }
+    
+}
+
+@media (max-width: 1198px)
+{
+        /* mail-form */
+        .mail-form .inputfield {
+            height: 5rem
+    }
+
+}
+
+
+@media (max-width: 1050px)
+{
+    /* content section 3  */
+
+    .content-section-3 p {
+        font-size: 3.5rem;
+    }
+
+}
+
+@media (max-width: 1168px)
+{
+    /* content section 3  */
+
+    .content-section-3 p {
+        font-size: 3.5rem;
+    }
+
+}
+
+@media (max-width: 991px)
+{
+   /* Hero-Section */
+
+.hero-section-text h3 {
+    text-align: center;
+}
+
+.hero-section-text p {
+    text-align: center;
+}
+
+/* Featured Service that We Provide  */
+
+.services {
+    margin: 10rem 0;
+}
+
+.services h4 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.services p {
+    font-size: 1.2rem;
+}
+
+.service-card-1 {
+    margin: 2rem 1.3rem;
+}
+
+.service-card-2 {
+    margin: 2rem 1.3rem;
+}
+
+.service-card-3 {
+    margin:  2rem 1.3rem;
+}
+
+/* content section 1 */
+
+.content-section-1 h3 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.content-section-1 p {
+    font-size: 1.2rem;
+    margin: 0rem 0;
+
+}
+.content-section-1 button {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    padding: 1rem 3rem;
+}
+
+/* content section 2 */
+
+.content-section-2 {
+    margin-top: 8rem;
+}
+
+.content-section-2 h3 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.content-section-2 p {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+/* content section 3 */
+
+.content-section-3 .img-1 {
+    max-width: 50%;
+    height: auto;
+} 
+
+.content-section-3 .img-2 {
+    max-width: 50%;
+    height: auto;
+} 
+.content-section-3 {
+    margin-top: 5rem;
+}
+.content-section-3 p {
+    font-size: 8rem;
+}
+
+.content-section-3 h2 {
+    font-size: 3rem;
+
+}
+
+@media (max-width: 425px)
+{
+   /* Hero-Section */
+
+.hero-section-text h3 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.hero-section-text p {
+    text-align: center;
+    font-size: .9rem;
+}
+
+/* Featured Service that We Provide  */
+
+.services {
+    margin: 5rem 0;
+}
+
+.services h4 {
+    margin-bottom: 1.5rem;
+}
+
+.service-card-1 {
+    margin: 1rem 1.3rem;
+}
+
+.service-card-2 {
+    margin: 1rem 1.3rem;
+}
+
+.service-card-3 {
+    margin:  1rem 1.3rem;
+}
+
+/* content section 1 */
+
+.content-section-1 p {
+    font-size: 1rem;
+
+}
+/* content section 2 */
+
+.content-section-2 {
+    margin-top: 5rem;
+}
+
+.content-section-2 p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* content section 3 */
+
+.content-section-3 .img-1 {
+    max-width: 50%;
+    height: auto;
+} 
+
+.content-section-3 .img-2 {
+    max-width: 50%;
+    height: auto;
+} 
+.content-section-3 {
+    margin-top: 5rem;
+}
+.content-section-3 p {
+    font-size: 5rem;
+}
+
+/* mail-form */
+
+.mail-form {
+    margin: 2rem 0;
+}
+}
+
+@media (max-width: 320px)
+{
+   /* Hero-Section */
+
+.hero-section-text h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Featured Service that We Provide  */
+
+.services {
+    margin: 0rem 0;
+    margin-top: 8rem;
+}
+
+.services h4 {
+    font-size: 1.8rem;
+    margin-bottom: 0rem;
+}
+
+.services p {
+    font-size: 1rem;
+}
+
+.service-card-1 {
+    margin: .8rem 1.3rem;
+}
+
+.service-card-2 {
+    margin: .8rem 1.3rem;
+}
+
+.service-card-3 {
+    margin:  .8rem 1.3rem;
+}
+
+/* content section 1 */
+.content-section-1 {
+    margin-top: 5rem;
+}
+
+.content-section-1 h3 {
+    font-size: 1.8rem;
+}
+.content-section-1 p {
+    font-size: .9rem;
+
+}
+/* content section 2 */
+
+.content-section-2 h3 {
+    font-size: 1.8rem;
+}
+
+.content-section-2 {
+    margin-top: 5rem;
+}
+
+.content-section-2 p {
+    font-size: .9rem;
+    margin-bottom: 2rem;
+}
+
+/* content section 3 */
+.content-section-3 p {
+    font-size: 3rem;
+}
+
+.content-section-3 h2 {
+    font-size: 1.8rem;
+}
+
+/* mail-form */
+
+.mail-form {
+    margin: 2rem 0;
+    padding: 0rem;
+}
+
+.mail-form h3 {
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+}
+}
+
